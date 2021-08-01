@@ -1,7 +1,7 @@
 /*
  * Conexión simple a WiFi
  * Por: Hugo Escalpelo
- * Fecha: 27 de junio de 2021
+ * Fecha: 28 de junio de 2021
  * 
  * Este programa muestra una conexión básica a WiFi para 
  * ESP32CAM. Para ello es necesario que cambies el SSID y 
@@ -21,8 +21,8 @@
 #include <WiFi.h>  // Biblioteca para manejar el WiFi del ESP32CAM
 
 // Datos de Red
-const char* ssid = "********";  // Pon aquí el nombre de la red a la que deseas conectarte
-const char* password = "********";  // Escribe la contraseña de dicha red
+const char* ssid = "HOME-1928";  // Pon aquí el nombre de la red a la que deseas conectarte
+const char* password = "1DB33A769D4B08B723";  // Escribe la contraseña de dicha red
 
 // Objetos
 WiFiClient espClient; // Este objeto maneja las variables necesarias para una conexion WiFi
